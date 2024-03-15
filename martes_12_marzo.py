@@ -8,7 +8,17 @@ print("resultado de la ecuasion es  {}".format(resultado))
 #   unajugeteria tiene mucho exito en dos de sus productos payasos y muyecas 3
 # payaso pesa = 112g
 # muñleca pesa =75 g
+peso_payaso=112
+peso_muñeca=75
 
+cant_payasos = int(input("Por favor, ingresa la cantidad de payasos: "))
+cant_muñecas = int(input("Por favor, ingresa la cantidad de muñecas: "))
+
+peso_total_payasos=cant_payasos*peso_payaso
+peso_total_muñecas=cant_muñecas*peso_muñeca
+
+suma_pesos=peso_total_payasos+peso_total_muñecas
+print(f"el peso total de la venta es de  {suma_pesos}")
 
 
 #cera un progama que tenga variable "te quiero amigo" 
